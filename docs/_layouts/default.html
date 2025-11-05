@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - Idyllwild Coffee Shop Business Plan</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="hero-banner">
+            <div class="hero-overlay">
+                <h1 class="site-title">Idyllwild Coffee Shop</h1>
+                <p class="site-subtitle">Business Plan & Market Research</p>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
+                <a href="{{ '/Idyllwild_Coffee_Shop_Executive_Summary.html' | relative_url }}" class="nav-link">Executive Summary</a>
+                <a href="{{ '/Idyllwild_Coffee_Shop_Market_Research.html' | relative_url }}" class="nav-link">Market Research</a>
+                <a href="{{ '/Idyllwild_Coffee_Shop_Business_Plan.html' | relative_url }}" class="nav-link">Business Plan</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Idyllwild Coffee Shop Business Plan | Prepared November 5, 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
